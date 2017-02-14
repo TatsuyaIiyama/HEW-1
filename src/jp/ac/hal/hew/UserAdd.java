@@ -64,7 +64,9 @@ public class UserAdd extends HttpServlet {
                   /*メールアドレスの再入力が不一致な為
                    *エラーを飛ばす処理をここに書く*/
               }
-          }//入力チェック（終）
+          }
+
+          //入力チェック（終）
         }//登録処理（終）
 
         //ログイン処理
@@ -76,8 +78,8 @@ public class UserAdd extends HttpServlet {
           //入力チェック（メールアドレスとパスワードの入力チェック）
           if(strAdd !=null && !strAdd.isEmpty()
             && strPasswd !=null && !strPasswd.isEmpty()){
-              /* 入力チェック完了後
-               * DAOに飛ばす処理を書く*/
+              /*入力チェック完了後
+               *DAOに飛ばす処理を書く*/
           }//入力チェック（終）
         }//ログイン処理(終)
 
