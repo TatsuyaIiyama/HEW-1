@@ -42,6 +42,7 @@ public class UserAdd extends HttpServlet {
 
 		String url;
 		if(result) {
+<<<<<<< HEAD
 			url = "/member_register_complete.html";
 
         //登録処理
@@ -81,6 +82,9 @@ public class UserAdd extends HttpServlet {
         Disp.forward(request, response);
 
     }
+=======
+			url = "/member_register_complete.jsp";
+>>>>>>> branch 'master' of https://github.com/sugarnaoming/HEW.git
 
 		} else {
 			//エラーページ未実装
